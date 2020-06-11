@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "a8c01923-e454-46ca-bc93-91b6adaf723c",
+		"name": "STRAVA",
+		"description": "connection with strava to get and post activities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Athlete Information from Strava",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 9aef8e4c5fd30bc538c84671d6cbc941ab1a4c91",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.strava.com/api/v3/athlete",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"athlete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "authentication from Strava",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "client_id",
+						"value": "CLIENTID",
+						"type": "text"
+					},
+					{
+						"key": "client_secret",
+						"value": "CLIENTSECRET",
+						"type": "text"
+					},
+					{
+						"key": "code",
+						"value": "AUTHORIZATIONCODE",
+						"type": "text"
+					},
+					{
+						"key": "grant_type",
+						"value": "authorization_code",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://www.strava.com/oauth/token?client_id=49591&client_secret=4ab2be93e692650356cc4287ec6e2b1cd137aea7&code=9aef8e4c5fd30bc538c84671d6cbc941ab1a4c91&grant_type=authorization_code",
+					"protocol": "https",
+					"host": [
+						"www",
+						"strava",
+						"com"
+					],
+					"path": [
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "49591"
+						},
+						{
+							"key": "client_secret",
+							"value": "4ab2be93e692650356cc4287ec6e2b1cd137aea7"
+						},
+						{
+							"key": "code",
+							"value": "9aef8e4c5fd30bc538c84671d6cbc941ab1a4c91"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
