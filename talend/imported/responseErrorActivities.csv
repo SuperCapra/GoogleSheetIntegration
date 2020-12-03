@@ -1,0 +1,3 @@
+Type;Date;StatusCode;Message;;;
+ACTIVITIES;13/10/2020 11:36;401;"{""message"":""Authorization Error"",""errors"":[{""resource"":""Athlete"",""field"":""access_token"",""code"":""invalid""}]}ACTIVITIES";13/10/2020 12:32;401;"{""message"":""Authorization Error"",""errors"":[{""resource"":""Athlete"",""field"":""access_token"",""code"":""invalid""}]}"ACTIVITIES;2020-10-13 12:38:37;401;{"message":"Authorization Error","errors":[{"resource":"Athlete","field":"access_token","code":"invalid"}]}
+ACTIVITIES;2020-10-13 13:00:41;401;{"message":"Authorization Error","errors":[{"resource":"Athlete","field":"access_token","code":"invalid"}]}

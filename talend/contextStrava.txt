@@ -1,0 +1,8 @@
+idClient:=49591
+clientSecret:=4ab2be93e692650356cc4287ec6e2b1cd137aea7
+refreshToken:=cfedcb9b7e79842fb9eea4b864b9535fd6106418
+rootLocation:=/Users/gmaggi/Documents/google-sheet-integration/talend/
+mailTo:=gvnnmaggi@gmail.com
+dbURL:=postgresql://localhost/gmaggi
+idClientGoogleOAuth:=943455448432-jp1vu7honeb71139kla9f2pav3jsim7n.apps.googleusercontent.com
+idClientSecret:=upjx4Nmz2fO4YgAAi5piJiNE
